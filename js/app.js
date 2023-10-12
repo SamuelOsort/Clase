@@ -43,7 +43,7 @@ const cargarTabla = () => {
         <td>${item.tipo}</td>
         <td>${item.tiempo}</td>
         <td>$${item.precio}</td>
-        <td></td>
+        <td><img src="${item.imagen}"</td>
         <td>
         <div class="d-flex gap-2">
         <button class="btn btn-outline-warning" onclick="mostrarModal(${item.id})"><i class="fa fa-pencil" aria-hidden="true"></i></button>
